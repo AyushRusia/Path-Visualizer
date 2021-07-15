@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Max Gold</title>
+    <script src="./app.js" |></script>
+  </head>
+  <body>
+    <div id="root">
+      <h1 class="heading">Grid Visulaizer</h1>
+      <div class="controls">
+        <input
+          name="size"
+          type="number"
+          required
+          min="1"
+          max="30"
+          class="inputfield"
+          id="size"
+          value="5"
+          ;
+        />
+        <button onclick="Generate()" id="generate">Generate</button>
+        <button onclick="findPath()">Find Max Path</button>
+      </div>
+      <div class="Main" id="Main">Gird</div>
+    </div>
+  </body>
+</html>
